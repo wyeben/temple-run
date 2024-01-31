@@ -70,7 +70,7 @@ function update() {
     if (
       playerX < coin.x + coin.radius &&
       playerX + 30 > coin.x - coin.radius &&
-
+      
       playerY < coin.y + coin.radius &&
       playerY + 30 > coin.y - coin.radius
     ) {
