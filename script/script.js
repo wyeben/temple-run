@@ -53,7 +53,6 @@ function update() {
     if (
       playerX < obstacle.x + obstacle.width &&
       playerX + 30 > obstacle.x &&
-
       playerY < obstacle.y + obstacle.height &&
       playerY + 30 > obstacle.y
     ) {
