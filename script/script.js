@@ -9,6 +9,7 @@ let obstacles = [];
 let coins = [];
 let score = 0;
 
+
 function drawPlayer() {
   ctx.fillStyle = '#00F';
   ctx.fillRect(playerX, playerY, 30, 30);
