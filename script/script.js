@@ -45,6 +45,7 @@ function update() {
     playerX = canvas.width - 30;
   }
 
+  
   drawPlayer();
 
   for (let obstacle of obstacles) {
