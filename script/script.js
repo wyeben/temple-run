@@ -84,6 +84,7 @@ function update() {
   drawScore();
 }
 
+
 function generateObstacle() {
   const obstacleWidth = Math.random() * 50 + 20; 
   const obstacleX = Math.random() * (canvas.width - obstacleWidth);
