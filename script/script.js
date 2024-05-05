@@ -78,6 +78,7 @@ function update() {
       coins.splice(coins.indexOf(coin), 1);
     }
   }
+  
   drawObstacles();
   drawCoins();
   drawScore();
