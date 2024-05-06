@@ -79,7 +79,7 @@ function update() {
     }
   }
 
-  
+
   drawObstacles();
   drawCoins();
   drawScore();
