@@ -109,7 +109,6 @@ function resetGame() {
   score = 0;
 }
 
-
 function gameLoop() {
   ctx.clearRect(0, 0, canvas.width, canvas.height);
 
