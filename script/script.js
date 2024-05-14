@@ -14,6 +14,7 @@ function drawPlayer() {
   ctx.fillRect(playerX, playerY, 30, 30);
 }
 
+
 function drawObstacles() {
   ctx.fillStyle = '#F00';
   for (let obstacle of obstacles) {
