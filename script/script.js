@@ -21,7 +21,6 @@ function drawObstacles() {
   }
 }
 
-
 function drawCoins() {
   ctx.fillStyle = '#FFD700';
   for (let coin of coins) {
