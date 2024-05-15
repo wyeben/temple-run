@@ -15,7 +15,7 @@
 // greet(' Ben')
 
 function add(n,r){
-    
+
     console.log(n+r)
 }
 
