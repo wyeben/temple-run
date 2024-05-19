@@ -10,6 +10,7 @@ for (let row = 0; row < grid; row++){
             line += '#';
         }
     }
+    
     chessBoard += line + '\n';
 }
 console.log(chessBoard)
