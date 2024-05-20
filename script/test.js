@@ -9,6 +9,7 @@ for (let row = 0; row < grid; row++){
         }else{
             line += '#';
         }
+        
     }
     chessBoard += line + '\n';
 }
