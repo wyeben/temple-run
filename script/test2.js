@@ -74,5 +74,6 @@
 let person = {name: 'Benson', age: 90}
 
 for(let key in person){
+    
     console.log(key + ':' + person[key])
 }
