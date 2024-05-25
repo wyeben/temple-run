@@ -115,6 +115,6 @@ for(let row = 0; row < grid; row++){
         }else{chaseBoard += '#'}
     }
     chaseBoard += '\n';
-    
+
 }
 console.log(chaseBoard)
