@@ -71,9 +71,50 @@
 
 // for ... in loop
 
-let person = {name: 'Benson', age: 90}
+// let person = {name: 'Benson', age: 90}
 
-for(let key in person){
+// for(let key in person){
 
-    console.log(key + ':' + person[key])
+//     console.log(key + ':' + person[key])
+// }
+
+for(let i = 7; i >=1; i--){
+    let star = ''
+    for(let r = 1; r <= i; r++){
+        star+= '#'
+    }
+    console.log(star)
 }
+for(let i = 1; i <=7; i++){
+    let star = ''
+    for(let r = 1; r <= i; r++){
+        star+= '#'
+    }
+    console.log(star)
+}
+
+let totalNum = 7;
+for(let i = 1; i <= totalNum; i++){
+    let line = ''
+    for(let r = 1; r <= totalNum - i; r++){
+        line += ' ';
+    }
+    for(let k = 1; k <= i; k++){
+        line += '#';
+    }
+    console.log(line)
+}
+
+let grid = 8;
+let chaseBoard = '';
+
+for(let row = 0; row < grid; row++){
+    for(let col = 0; col < grid; col++){
+        if((row + col) % 2 == 0){
+            chaseBoard += ' ';
+        }else{chaseBoard += '#'}
+    }
+    chaseBoard += '\n';
+    
+}
+console.log(chaseBoard)
