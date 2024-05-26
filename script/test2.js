@@ -133,6 +133,7 @@ function countBs(string){
 }
 
 console.log(countBs("Bubble Bee")); 
+
 console.log(countChars("Bubble BeeB", "b"));
 
 yueicycjc8uj7eq
