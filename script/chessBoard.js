@@ -11,6 +11,7 @@ cards.sort((a, r) => {
     cardOther[r.toString()] = index2;
     return index1 - index2;
 
+    
 });
 
 console.log(cards);
