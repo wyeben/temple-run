@@ -9,9 +9,10 @@ cards.sort((a, r) => {
     let index2 = card1.indexOf(r.toString().charAt(0).toUpperCase() + r. toString().slice(1));
     cardOther[a.toString()] = index1;
     cardOther[r.toString()] = index2;
+    
     return index1 - index2;
 
-    
+
 });
 
 console.log(cards);
