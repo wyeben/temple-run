@@ -12,7 +12,6 @@ cards.sort((a, r) => {
 
     return index1 - index2;
 
-
 });
 
 console.log(cards);
