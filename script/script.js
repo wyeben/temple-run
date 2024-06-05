@@ -132,7 +132,6 @@ document.addEventListener('keydown', (event) => {
     playerSpeed = 5;
   } else if (event.key === 'ArrowLeft') {
     playerSpeed = -5;
-
   }
 });
 
