@@ -140,5 +140,4 @@ document.addEventListener('keyup', () => {
   playerSpeed = 0;
 });
 
-
 gameLoop();
